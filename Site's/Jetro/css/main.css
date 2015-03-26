@@ -95,6 +95,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+/* ==========================================================================
+                                    Home 
+   ========================================================================== */
 @font-face { 
 	font-family: BEBAS;
 	src: url('../font/BEBAS___.TTF');
@@ -126,7 +130,6 @@ main {
     padding: 0px 20px;
 	margin: 0 auto;
 	background: url('../img/images/background-jetro.jpg');
-	overflow: hidden;
     position: relative;
 }
 
@@ -394,13 +397,14 @@ footer {
 }
 
 /* ==========================================================================
-   About page
+                                About page
    ========================================================================== */
 
 .main-header {
     height: 61px;
     width: 100%;
     background: #e8603c;
+    margin-bottom: 24px;
 }
 
 .main-header h1 {
@@ -420,7 +424,6 @@ footer {
 }
 
 .about-paragraphs p:nth-child(1) {
-    padding-top: 28px;
     padding-bottom: 26px;
 }
 
@@ -533,7 +536,6 @@ footer {
 }
 
 section.aside-bar {
-    margin-top: 27px;
     margin-left: 8.75%;
 }
 section.aside-bar p {
@@ -571,8 +573,8 @@ section.aside-bar h3 {
     margin: 0px 0px 7px 100px;
 }
 
-.aside-img:last-of-type {
-    margin: 0px 0px 7px 105px;
+.last-border-header {
+    margin: 0px 0px 7px 104px;
 }
 
 .photo-gallery {
@@ -593,10 +595,157 @@ section.aside-bar h3 {
 }
 
 .top-gallery {
+    margin-top: 17px;
     margin-bottom: 6px;
 }
+
 /* ==========================================================================
-   Helper classes   50 6 5 260.553187
+                                Blog 
+   ========================================================================== */
+
+.blog-index {
+    width: 72.340425%;
+    float: left;
+}
+
+.blog-update {
+    padding-top: 22px;
+}
+
+.blog-post {
+    position: relative;
+}
+
+.icon-blog {
+    position: absolute; 
+    top: 0px;
+    left: -94px;
+}
+
+.date-info {
+    width: 14.194029%;
+    float: left;
+}
+
+.date-info p {
+    font-size: 1.2rem;
+    color: #bfbfbf;
+    font-family: helvetica;
+    padding-top: 4px;
+    padding-bottom: 10px;
+}
+
+.date-info h4 {
+    font-size: 1.2rem;
+    color: #e8603c;
+}
+
+.blog-info {
+    width: 75.223880%;
+    float: left;
+    margin-left: 6.462686%;
+}
+
+.blog-info h2 {
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+    color: #e8603c;
+}
+
+.blog-info p {
+    color: #414141;
+    font-size: 1.2rem;
+    font-family: helvetica;
+}
+
+.blog-info p:first-of-type {
+    padding-bottom: 24px;
+}
+
+.blog-info p:last-of-type {
+    padding-bottom: 48px;
+}
+
+.blog-lower-line {
+    clear: both;
+    width: 100%;
+    margin: 0px 0px 56px 0px;
+    padding-right: 70px;
+}
+
+.blog-quote {
+    width: 92%;
+    height: 48px;
+    padding-top: 28px;
+    padding-right: 2%;
+    background: #f4f4f4;
+}
+
+.blog-quote p {
+    font-family: helvetica;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.quote {
+    font-family: georgia;
+    font-size: 7.2rem;
+    float: left;
+    line-height: 55px;
+    margin-right: 4%;
+    margin-left: 4%;
+    color: #e8663c;
+}
+
+.lower-img-quote {
+    background: url(../img/images/shade.gif);
+    height: 19px;
+    max-width: 94.4%;
+    margin-bottom: 46px;
+}
+
+.blog-link h2 {
+    font-size: 1.8rem;
+    color: #e8663c;
+}
+.p-link {
+    color: #a0a0a0;
+    font-size: 1.2rem;
+    font-family: helvetica;
+    margin-top: 6px;
+}
+
+.blog-link p:last-of-type {
+    font-family: helvetica;
+    font-size: 1.2rem;
+    margin-top: 24px;
+    color: #414141;
+    margin-bottom: 38px;
+}
+
+.next-blog {
+    background: #f3b29d;
+    width: 3.88059%;
+    height: 26px;
+    margin-bottom: 47px;
+    float: left;
+    margin-right: 0.697014%;
+}
+
+.next-blog p {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.next-blog:last-of-type {
+    margin-right: 0px;
+}
+
+.first-next {
+    background: #e8663c;
+}
+/* ==========================================================================
+   Helper classes   670
    ========================================================================== */
 
 /*
