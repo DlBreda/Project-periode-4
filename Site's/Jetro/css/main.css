@@ -721,6 +721,7 @@ section.aside-bar h3 {
     margin-top: 24px;
     color: #414141;
     margin-bottom: 38px;
+    width: 94%;
 }
 
 .next-blog {
@@ -735,6 +736,10 @@ section.aside-bar h3 {
 .next-blog p {
     text-align: center;
     padding-top: 5px;
+    font-family: helvetica;
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .next-blog:last-of-type {
@@ -744,9 +749,38 @@ section.aside-bar h3 {
 .first-next {
     background: #e8663c;
 }
+
 /* ==========================================================================
-   Helper classes   670
+                                Portfolio
    ========================================================================== */
+.portfolio-nav {
+    float: left;
+    text-align: left;
+    width: 100%;
+}
+
+.portfolio-nav li:first-of-type {
+    background: #e8663c;
+    width: 4.574468%;
+    padding-top: 4px;
+    height: 31px;
+    padding-left: 2%;
+    color: #FFFFFF;
+    margin-bottom: 37px;
+}
+
+.portfolio-nav li {
+    margin-right: 2%;
+}
+
+.last-portfolio {
+    margin-right: 0px;
+}
+/* ==========================================================================
+   Helper classes 
+   ========================================================================== */
+
+
 
 /*
 
