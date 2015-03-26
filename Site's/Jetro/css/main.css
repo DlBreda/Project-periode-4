@@ -761,10 +761,10 @@ section.aside-bar h3 {
 
 .portfolio-nav li:first-of-type {
     background: #e8663c;
-    width: 4.574468%;
+    width: 1.574468%;
     padding-top: 4px;
     height: 31px;
-    padding-left: 2%;
+    padding-left: 1.5%;
     color: #FFFFFF;
     margin-bottom: 37px;
 }
@@ -776,6 +776,27 @@ section.aside-bar h3 {
 .last-portfolio {
     margin-right: 0px;
 }
+
+/* ==========================================================================
+                            Portfolio_item
+   ========================================================================== */
+
+.portfolio-index p {
+    font-family: helvetica;
+    font-size: 1.2rem;
+    color: #414141;
+}
+
+.portfolio-index p:first-of-type {
+    margin-top: 26px;
+    margin-bottom: 27px;
+}
+
+.portfolio-index p:last-of-type {
+    margin-bottom: 51px;
+}
+
+
 /* ==========================================================================
    Helper classes 
    ========================================================================== */
