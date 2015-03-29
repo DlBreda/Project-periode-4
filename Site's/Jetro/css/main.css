@@ -414,7 +414,7 @@ footer {
 }
 
 .about-paragraphs  {
-    width: 72.340425%; 
+    max-width: 72.340425%; 
     float: left;
 }
 
@@ -531,7 +531,7 @@ footer {
 }
 
 .aside {
-    width: 27.659574%;
+    max-width: 27.659574%;
     float: left;
 }
 
@@ -604,7 +604,7 @@ section.aside-bar h3 {
    ========================================================================== */
 
 .blog-index {
-    width: 72.340425%;
+    max-width: 72.340425%;
     float: left;
 }
 
@@ -641,7 +641,7 @@ section.aside-bar h3 {
 }
 
 .blog-info {
-    width: 75.223880%;
+    max-width: 75.223880%;
     float: left;
     margin-left: 6.462686%;
 }
@@ -798,11 +798,82 @@ section.aside-bar h3 {
 
 
 /* ==========================================================================
-   Helper classes 
+                                Contact 
    ========================================================================== */
 
+.contact-index {
+    max-width: 72.340425%; 
+    float: left;
+}
+
+.contact-index p {
+    font-family: helvetica;
+    font-size: 1.2rem;
+}
+
+.contact-index h6 {
+    font-family: helvetica;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #e8603c;
+    padding-top: 10px;
+}
+
+.contact-info {
+    padding-top: 14px;
+}
+
+.left-index {
+    width: 26.029411%;
+    float: left;
+    padding-top: 34px;
+    padding-right: 5%;
+}
+
+.right-index {
+    width: 68.970588%;
+    float: right;
+    padding-top: 34px;
+}
+
+.input-text {
+    padding: 10px 44% 10px 2.588235%;
+    border: 1px solid #e8603c;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #e8603c;
+}
+
+.text-area {
+    padding: 10px 66.6% 180px 2.588235%;
+    border: 1px solid #e8603c;
+    font-size: 1.2rem;
+    color: #e8603c;
+}
 
 
+::-webkit-input-placeholder { color:#e8603c; }
+::-moz-placeholder { color:#e8603c; } /* firefox 19+ */
+:-ms-input-placeholder { color:#e8603c; } /* ie */
+input:-moz-placeholder { color:#e8603c; }
+
+.send-button {
+    padding: 6px 20px 6px 4px;
+    background: #e8603c;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    margin-top: 6px;
+    margin-bottom: 37px;
+}
+
+.aside {
+    max-width: 27.659574%;
+    float: left;
+}
+
+/* ==========================================================================
+   Helper classes                                           679.999995
+   ========================================================================= */
 /*
 
 
